@@ -1,19 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using llamaStatus;
 
 public class Scores : MonoBehaviour {
-	
-	public int currentWater;
+
+	public static int totalWater { get; set; }
+	public static int totalDirt { get; set; }
+
 	Text waterDisplay;
+
 	// Use this for initialization
 	void Awake(){
-		waterDisplay = GetComponent<Text> ();
-		currentWater = 0;
+		waterDisplay = GetComponent<Text> (); 
 	}
 	// Update is called once per frame
 	void Update () {
-		waterDisplay.text = "Score: " + currentWater;
+		waterDisplay.text = "Score: " + totalWater;
 	}
 }

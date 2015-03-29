@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class Leaf : MonoBehaviour 
 {
     //Leaf will appear once this timer reaches 0
@@ -26,7 +25,7 @@ public class Leaf : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             //Call addPoints method in score script and destroy this object
-
+			Scores.totalWater = Scores.totalWater + 1;
             Destroy(this.gameObject);
         }
     }
