@@ -13,7 +13,7 @@ public class Scores : MonoBehaviour {
 	void OnGUI() {
 		pivotPoint = new Vector2(Screen.width - 50, 1);
 		GUIUtility.ScaleAroundPivot(scale, pivotPoint);
-		if (GUI.Button (new Rect (Screen.width / 2 - 310, Screen.height / 2 - 120, 100, 30), "Score: " + totalWater)) {
+		if (GUI.Button (new Rect (Screen.width / 2 - 370, Screen.height / 2 - 140, 150, 50), "Score: " + totalWater)) {
 		}
 		
 	}
