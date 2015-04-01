@@ -23,7 +23,7 @@ public class lvl1Complete : MonoBehaviour {
 			endNoise.mute = false;
 			mainCamera.enabled = false;
 			lvl1Camera.enabled = true;
-			llama.transform.position = new Vector3 (6.7f, -8.49F, 0);
+			llama.transform.position = new Vector3 (6.7f, -10.14F, 0);
 
 		}
 	}
