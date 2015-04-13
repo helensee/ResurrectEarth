@@ -1,0 +1,5 @@
+- reorganize folders based on industry standards
+- remove unnecessary folders/scripts
+- write our own character controller
+- create a new scene for complete levels
+- figure out how to export into a webpage
